@@ -1,3 +1,41 @@
-body{
-    background-color: darkslategrey;
+
+:root{
+    --backgroundColor: #2f4f4fff;
+    --foreground1: #4aad52ff;
+    --foreground2: #231A1C;
+    --textColorMain: #f1edeeff;
+    --highlight: #D295BF;
 }
+
+h1, h2, h3, h4, h5, h6 {font-family:"Tektur"; color:var(--highlight)}
+p{
+    color: var(--textColorMain);
+    font-family: "Tektur";
+    padding: 2%;
+}
+body{
+    background-color: var(--backgroundColor);
+}
+
+
+#aboutMe{
+    background-color: var(--foreground2);
+    border-radius: 30px;
+}
+#twoCol{
+    display: flex;
+}
+
+#twoCol div{
+    width: 50%;
+    float:left
+}
+
+#profileImg{
+    max-width: 50%;
+    max-height: 50%;
+    float:inherit;
+    border: 15px solid var(--foreground2);
+    border-radius: 30%;
+}
+

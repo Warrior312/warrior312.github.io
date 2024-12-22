@@ -1,8 +1,33 @@
 <html>
     <head>
-        <link rel="stylesheet" href="\styles\mainPage.css">
+        <link rel="stylesheet" href="styles\mainPage.css">
+        <!--This is the stuff needed for our cool font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+        <script>
+            $(document).ready(function() {
+                $("#nav-placeholder").load("topnav.html")
+            })
+        </script>
     </head>
     <body>
+        <div id="#nav-placeholder"></div>
         <h1>Hello World!</h1>
+        <div id = "twoCol">
+            <div id="aboutMe">
+                <h1>About Me</h1>
+                <p>Hello World! This is my personal Website</p>
+            </div>
+            <div id="profile">
+                <center>
+                    <img src="images/profile.jpg" alt="" id="profileImg">
+                </center>
+                
+            </div>
+        </div>
+        
     </body>
+    
 </html>
+
