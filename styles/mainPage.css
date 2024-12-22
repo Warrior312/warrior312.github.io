@@ -8,6 +8,14 @@
 }
 
 h1, h2, h3, h4, h5, h6 {font-family:"Tektur"; color:var(--highlight)}
+
+#text{
+    font-family: "Tektur";
+    color:var(--textColorMain)
+}
+#centeredHeader{
+    text-align: center;
+}
 p{
     color: var(--textColorMain);
     font-family: "Tektur";
@@ -15,9 +23,20 @@ p{
 }
 body{
     background-color: var(--backgroundColor);
+    padding: 2%;
 }
 
 
+#information{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#information div{
+    margin: 5px auto;
+    width: 100%;
+}
 #aboutMe{
     background-color: var(--foreground2);
     border-radius: 30px;
@@ -27,15 +46,19 @@ body{
 }
 
 #twoCol div{
-    width: 50%;
-    float:left
+    width: 45%;
+    float:left;
+    padding: 2.5%;
 }
 
 #profileImg{
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 100%;
+    max-height: 1000%;
     float:inherit;
     border: 15px solid var(--foreground2);
     border-radius: 30%;
 }
+
+
+
 
